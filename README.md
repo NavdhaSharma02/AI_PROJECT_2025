@@ -1,4 +1,4 @@
-# Voice Impairement 
+# Speech Restoration for Impaired Speech Using AI
 
 ### Overview
 Modern voice-driven technologies rely heavily on Automatic Speech Recognition (ASR). However, most ASR systems are trained primarily on fluent speech, making them ineffective for users with speech impairments such as stuttering. This project aims to design an inclusive AI system capable of understanding and correcting disfluent speech, ensuring equitable access to digital communication.
@@ -49,7 +49,7 @@ This project aims to build an AI system capable of recognizing and correcting st
 
 Produces refined text or optionally converts it into synthesized fluent speech through TTS.
 
-Preprocessing Pipeline
+### Preprocessing Pipeline
 
 Normalization – ensures consistent volume
 
@@ -63,7 +63,7 @@ Spectrograms and MFCCs capture essential acoustic information
 
 Whisper ASR serves as the primary speech recognition engine, fine-tuned for disfluency robustness
 
-Text Correction Intelligence
+### Text Correction Intelligence
 
 A Transformer sequence-to-sequence model analyzes the ASR output, removes disfluent patterns, identifies intended text, and reconstructs grammatically and semantically correct sentences.
 
